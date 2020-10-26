@@ -1,6 +1,7 @@
 sudo: required
 dist: trusty
 language: generic
+arch: arm64
 cache:
   directories:
     - $HOME/.ccache
