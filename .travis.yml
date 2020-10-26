@@ -15,6 +15,7 @@ script: bash -ex ./.travis-script.sh
 env:
   global:
       - PATH="/usr/lib/ccache:$PATH"
+      - DIRS_emul=sys/rump/kern/lib/libsys_linux
   matrix:
     - PACKAGE=erlang
     - PACKAGE=haproxy
